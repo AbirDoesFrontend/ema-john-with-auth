@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 .shop-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
