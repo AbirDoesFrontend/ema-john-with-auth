@@ -2,11 +2,11 @@ import React, { useContext, useState } from 'react';
 
 import './Signup.css';
 import { Link } from 'react-router-dom';
-import { AuhtContext } from '../context/AuthProvider';
+import { AuthContext } from '../context/AuthProvider';
 
 const Signup = () => {
 
-    const { createUser } = useContext(AuhtContext)
+    const { createUser } = useContext(AuthContext)
 
     const [error, setError] = useState('')
 

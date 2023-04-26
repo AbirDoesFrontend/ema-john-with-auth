@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import "./Header.css";
 import logo from "../../images/Logo.svg";
 import { Link } from "react-router-dom";
-import { AuhtContext } from "../context/AuthProvider";
+import { AuthContext } from "../context/AuthProvider";
 
 const Header = () => {
-  const { user, logOut } = useContext(AuhtContext);
+  const { user, logOut } = useContext(AuthContext);
 
   const handleLogOut = () => {
     logOut();
