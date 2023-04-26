@@ -13,7 +13,9 @@ const Header = () => {
 
   return (
     <nav className="header">
-      <img src={logo} alt="" />
+      <Link to='/'>
+        <img src={logo}/>
+      </Link>
       <div>
         <Link to="/">Shop</Link>
         <Link to="/orders">Orders</Link>
